@@ -1,0 +1,9 @@
+---
+name: itimewall
+version: 2
+handlers:
+- url: /home/static
+  static_dir: itimewall/static
+- url: /news/static
+  static_dir: itimewall/static
+...
